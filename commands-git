@@ -1,10 +1,20 @@
-# Cloner un repository
+# Cloner un repository:
 git clone <url-du-repository>
 
-# Commandes de push
+# Commandes de push:
 git add .
 git commit -m "message du commit"
 git push
 
-#Commande pull
+#Commande pull:
 git pull
+
+#Commande creer une nouvelle branche:
+git branch "nom de la branche"
+
+#Commande switch de branch:
+git checkout "nom de la branche 
+git switch "nom de la branche" 
+
+#Commande qui cree une nouvelle branche et se deplace immédiatement dessus:
+git checkout -b "nom de la branche"
